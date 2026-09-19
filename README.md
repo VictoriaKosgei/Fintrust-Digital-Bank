@@ -1,1 +1,1 @@
-# AnalystLab-Africa-Data-Analytics-Internship
+#Fintrust-Digital-Bank
