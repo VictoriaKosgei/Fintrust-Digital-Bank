@@ -1,60 +1,75 @@
-# FinTrust Week 1 — Evidence
+# AnalystLab Africa Data Analytics Internship
 
-This folder contains supporting evidence for the Week 1 Business & Data Intelligence Assessment for the FinTrust Financial Intelligence & Digital Banking Support Solution.
+Welcome to my project repository for the **AnalystLab Africa Data Analytics Internship Program**.
 
-## 1. Customer Data Profiling
+This repository documents my learning journey, practical projects, data analysis work, and technical skills developed throughout the internship.
 
-This evidence shows the initial profiling and exploration of the customer dataset.
+## 🏦 Current Project — FinTrust Experience Lab
 
-![Customer Data Profiling](Customer_Data.png)
+### FinTrust Financial Intelligence & Digital Banking Support Solution
+
+I am currently working on the **Data Analytics track** of the FinTrust Experience Lab.
+
+The project focuses on using customer and transaction data to understand business performance, identify meaningful patterns, and develop data-driven insights to support digital banking decisions.
+
+### Project Progress
+
+* ✅ **Week 1 — Business & Data Intelligence Assessment**
+
+  * Business problem understanding
+  * Customer and transaction data profiling
+  * Data quality assessment
+  * Analytical questions and KPI planning
+  * Customer–transaction relationship assessment
+  * Dashboard wireframe
+  * Week 2–4 project planning
+
+* ⏳ **Week 2 — Data Preparation & Exploratory Analysis**
+
+  * Coming next
+
+* ⏳ **Week 3 — Dashboard Development & Deeper Analysis**
+
+  * Coming later
+
+* ⏳ **Week 4 — Validation, Insights & Finalization**
+
+  * Coming later
+
+## 🛠️ Tools & Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* SQL
+* Power BI
+* Excel
+
+## 📂 Repository Structure
+
+```text
+FinTrust/
+└── Week-1-Business-Data-Assessment/
+    ├── README.md
+    ├── FINTRUST FINANCIAL INTELLIGENCE REPORT.docx
+    └── Evidence/
+        ├── README.md
+        ├── Customer_Data.png
+        ├── Customer_Quality_Check.png
+        ├── Customer_Relationship.png
+        ├── Dashboard_Wireframes.png
+        ├── Transaction_Data.png
+        └── Transaction_Quality_Check.png
+```
+
+The repository will be updated as each stage of the FinTrust project is completed.
+
+## 🎯 Internship Goal
+
+To strengthen my practical data analytics skills by working through real-world business problems involving data preparation, analysis, visualization, and business insight generation.
 
 ---
 
-## 2. Customer Data Quality Check
-
-This evidence shows the quality assessment performed on the customer dataset, including checks for missing values and duplicate records.
-
-![Customer Data Quality Check](Customer_Quality_Check.png)
-
----
-
-## 3. Transaction Data Profiling
-
-This evidence shows the initial profiling and exploration of the transaction dataset.
-
-![Transaction Data Profiling](Transaction_Data.png)
-
----
-
-## 4. Transaction Data Quality Check
-
-This evidence shows the quality assessment performed on the transaction dataset, including checks for missing values and duplicate records.
-
-![Transaction Data Quality Check](Transaction_Quality_Check.png)
-
----
-
-## 5. Customer–Transaction Relationship
-
-This evidence shows the planned relationship between the customer and transaction datasets using `Customer_ID`.
-
-![Customer Transaction Relationship](Customer_Relationship.png)
-
----
-
-## 6. Dashboard Wireframe
-
-This evidence shows the planned structure and layout for the future FinTrust analytics dashboard.
-
-![Dashboard Wireframe](Dashboard_Wireframes.png)
-
----
-
-## Purpose
-
-These files provide visual evidence of the data profiling, data-quality assessment, customer–transaction relationship planning, and dashboard planning activities completed during Week 1.
-
-## Week 1 Status
-
-**Completed**
-
+**Status:** FinTrust Week 1 completed ✅
+**Next:** Week 2 — Data Preparation & Exploratory Analysis
