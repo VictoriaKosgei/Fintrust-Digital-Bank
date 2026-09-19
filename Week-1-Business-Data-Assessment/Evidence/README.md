@@ -2,50 +2,58 @@
 
 This folder contains supporting evidence for the Week 1 Business & Data Intelligence Assessment for the FinTrust Financial Intelligence & Digital Banking Support Solution.
 
-## Evidence Files
+## 1. Customer Data Profiling
 
-### 1. Customer Data Profiling
+This evidence shows the initial profiling and exploration of the customer dataset.
 
-**File:** `Customer_Data.png`
+![Customer Data Profiling](Customer_Data.png)
 
-Provides evidence of the initial profiling and exploration of the customer dataset, including its structure and characteristics.
+---
 
-### 2. Customer Data Quality Check
+## 2. Customer Data Quality Check
 
-**File:** `Customer_Quality_Check.png`
+This evidence shows the quality assessment performed on the customer dataset, including checks for missing values and duplicate records.
 
-Provides evidence of the customer dataset quality assessment, including checks for missing values and duplicate records.
+![Customer Data Quality Check](Customer_Quality_Check.png)
 
-### 3. Transaction Data Profiling
+---
 
-**File:** `Transaction_Data.png`
+## 3. Transaction Data Profiling
 
-Provides evidence of the initial profiling and exploration of the transaction dataset.
+This evidence shows the initial profiling and exploration of the transaction dataset.
 
-### 4. Transaction Data Quality Check
+![Transaction Data Profiling](Transaction_Data.png)
 
-**File:** `Transaction_Quality_Check.png`
+---
 
-Provides evidence of the transaction dataset quality assessment, including checks for missing values and duplicate records.
+## 4. Transaction Data Quality Check
 
-### 5. Customer–Transaction Relationship
+This evidence shows the quality assessment performed on the transaction dataset, including checks for missing values and duplicate records.
 
-**File:** `Customer_Relationship.png`
+![Transaction Data Quality Check](Transaction_Quality_Check.png)
 
-Provides evidence of the relationship between the customer and transaction datasets using `Customer_ID`.
+---
 
-### 6. Dashboard Wireframe
+## 5. Customer–Transaction Relationship
 
-**File:** `Dashboard_Wireframes.png`
+This evidence shows the planned relationship between the customer and transaction datasets using `Customer_ID`.
 
-Provides evidence of the planned structure and layout for the future FinTrust analytics dashboard.
+![Customer Transaction Relationship](Customer_Relationship.png)
+
+---
+
+## 6. Dashboard Wireframe
+
+This evidence shows the planned structure and layout for the future FinTrust analytics dashboard.
+
+![Dashboard Wireframe](Dashboard_Wireframes.png)
+
+---
 
 ## Purpose
 
-These files support the Week 1 project documentation by providing visual evidence of the data profiling, data-quality assessment, relationship planning, and dashboard planning activities completed during the project.
+These files provide visual evidence of the data profiling, data-quality assessment, customer–transaction relationship planning, and dashboard planning activities completed during Week 1.
 
 ## Week 1 Status
 
 **Completed**
-
-
