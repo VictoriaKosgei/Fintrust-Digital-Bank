@@ -42,14 +42,6 @@ This evidence shows the planned relationship between the customer and transactio
 
 ---
 
-## 6. Dashboard Wireframe
-
-This evidence shows the planned structure and layout for the future FinTrust analytics dashboard.
-
-![Dashboard Wireframe](Dashboard_Wireframes.png)
-
----
-
 ## Purpose
 
 These files provide visual evidence of the data profiling, data-quality assessment, customer–transaction relationship planning, and dashboard planning activities completed during Week 1.
