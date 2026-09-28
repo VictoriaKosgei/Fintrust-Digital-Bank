@@ -1,1 +1,10 @@
+# Step A: Force GitHub to look at these files instead of ignoring them
+*.sql linguist-detectable=true
+*.dax linguist-detectable=true
+*.csv linguist-detectable=true
+
+# Step B: Tell GitHub what language label to assign to them
+*.sql linguist-language=SQL
+*.dax linguist-language=DAX
+*.csv linguist-language=CSV
 
