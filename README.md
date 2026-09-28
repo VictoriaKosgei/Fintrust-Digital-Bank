@@ -22,7 +22,7 @@ The project focuses on analysing customer and transaction data to understand ban
 
 During Week 1, I focused on understanding the FinTrust business problem and assessing the available customer and transaction datasets before beginning detailed analysis.
 
-### What I worked on
+### What I Worked On
 
 - Defined the business questions that management should answer
 - Identified stakeholders and decisions supported by the analysis
@@ -47,7 +47,7 @@ During Week 1, I focused on understanding the FinTrust business problem and asse
 
 Week 1 established the business and data foundation required to move into detailed analysis in Week 2.
 
-📂 **[View Week 1 Project](./FinTrust-Digital-Bank/Week-1-Business-Data-Assessment/)**
+📂 **[View Week 1 Project](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/tree/main/FinTrust-Digital-Bank/Week-1-Business-Data-Assessment)**
 
 ---
 
@@ -59,7 +59,7 @@ In Week 2, I moved from understanding and planning the data into practical analy
 
 ### 🔹 Excel — Data Preparation & Quality Assessment
 
-I used Excel to assess the quality and readiness of the datasets.
+I used **Microsoft Excel** to assess the quality and readiness of the datasets.
 
 Activities included:
 
@@ -73,7 +73,7 @@ Activities included:
 
 ### 🔹 SQL — Business Analysis
 
-I used SQL to answer **8 business-driven analytical questions** covering:
+I used **SQL** to answer **8 business-driven analytical questions** covering:
 
 - Customer behaviour
 - Transaction activity
@@ -105,7 +105,7 @@ I also created visualizations to communicate important patterns and relationship
 
 ### 🔹 Power BI — Management Dashboard
 
-I developed an interactive Power BI dashboard containing key performance indicators including:
+I developed an interactive **Power BI management dashboard** containing key performance indicators including:
 
 - Total Customers
 - Total Transactions
@@ -150,7 +150,7 @@ Week 2 strengthened my ability to move from:
 
 **Raw Data → Data Preparation → SQL Analysis → Python EDA → Power BI → Business Insights**
 
-📂 **[View Week 2 Project](./FinTrust-Digital-Bank/Week-2-Data-Preparation-Analysis/)**
+📂 **[View Week 2 Project](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/tree/main/FinTrust-Digital-Bank/Week-2-Data-Preparation-Analysis)**
 
 ---
 
@@ -158,15 +158,18 @@ Week 2 strengthened my ability to move from:
 
 Throughout the FinTrust project, I have worked with:
 
-- **Microsoft Excel** — Data preparation and quality assessment
-- **SQL** — Business data querying and analysis
-- **Python** — Exploratory data analysis
-- **Pandas** — Data manipulation and analysis
-- **NumPy** — Numerical analysis
-- **Matplotlib** — Data visualization
-- **Seaborn** — Statistical visualization
-- **Power BI** — Interactive dashboards and business reporting
-- **GitHub** — Project documentation and version control
+| Tool / Technology | How I Used It |
+|---|---|
+| **Microsoft Excel** | Data preparation and quality assessment |
+| **SQL** | Business data querying and analysis |
+| **Python** | Exploratory data analysis |
+| **Pandas** | Data manipulation and analysis |
+| **NumPy** | Numerical analysis |
+| **Matplotlib** | Data visualization |
+| **Seaborn** | Statistical visualization |
+| **Power BI** | Interactive dashboard development and business reporting |
+| **Jupyter Notebook** | Python analysis, EDA, and documentation |
+| **GitHub** | Project documentation and version control |
 
 ---
 
