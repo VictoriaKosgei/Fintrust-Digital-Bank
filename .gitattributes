@@ -1,10 +1,18 @@
-# Step A: Force GitHub to look at these files instead of ignoring them
-*.sql linguist-detectable=true
-*.dax linguist-detectable=true
-*.csv linguist-detectable=true
+# Keep tracking your existing Jupyter Notebook files
+*.ipynb linguist-detectable=true
 
-# Step B: Tell GitHub what language label to assign to them
+# Force track MySQL scripts and queries under the 'SQL' label
+*.sql linguist-detectable=true
 *.sql linguist-language=SQL
+
+# Force track Power BI scripts (DAX or Power Query M formulas) 
+*.dax linguist-detectable=true
 *.dax linguist-language=DAX
+*.m linguist-detectable=true
+*.m linguist-language=PowerQuery
+
+# Force track Excel datasets (Using text-based CSV format)
+*.csv linguist-detectable=true
 *.csv linguist-language=CSV
+
 
