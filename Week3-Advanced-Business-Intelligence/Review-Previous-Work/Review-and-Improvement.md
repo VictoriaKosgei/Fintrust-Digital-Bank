@@ -1,4 +1,4 @@
-# Week 3 — Part A: Review Previous Work
+# Week 3 — Review Previous Work
 
 ## 1. Purpose
 
