@@ -12,7 +12,7 @@ Week 3 builds directly on the existing FinTrust project rather than starting a n
 
 ### Week 1
 
-Week 1 focused on understanding and planning the FinTrust business and data environment.
+Week 1 focused on understanding and planning the FinTrust business and data environment by writing a report.
 
 Completed activities included:
 
