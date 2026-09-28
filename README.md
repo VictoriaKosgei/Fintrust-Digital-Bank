@@ -47,7 +47,7 @@ During Week 1, I focused on understanding the FinTrust business problem and asse
 
 Week 1 established the business and data foundation required to move into detailed analysis in Week 2.
 
-📂 **[View Week 1 Project](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/tree/main/FinTrust-Digital-Bank/Week-1-Business-Data-Assessment)**
+📂 **[View Week 1 Project](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/tree/main/Week-1-Business-Data-Assessment)**
 
 ---
 
