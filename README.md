@@ -2,136 +2,197 @@
 
 Welcome to my project repository for the **AnalystLab Africa Data Analytics Internship Program**.
 
-This repository documents my learning journey, practical projects, data analysis work, and technical skills developed throughout the internship.
+This repository documents my practical learning journey in data analytics, including data preparation, SQL analysis, exploratory data analysis, data visualization, dashboard development, and business insight generation.
 
 ---
 
-## 🏦 Current Project — FinTrust Experience Lab
+# 🏦 FinTrust Financial Intelligence & Digital Banking Support Solution
 
-### FinTrust Financial Intelligence & Digital Banking Support Solution
+As part of the AnalystLab Africa Internship, I am working on the **FinTrust Experience Lab** under the **Data Analytics track**.
 
-I am currently working on the **Data Analytics track** of the FinTrust Experience Lab.
-
-The project focuses on using customer and transaction data to understand business performance, identify meaningful patterns, and develop data-driven insights to support digital banking decisions.
+The project focuses on analysing customer and transaction data to understand banking activity, identify meaningful patterns, develop key performance indicators (KPIs), and generate insights that can support business understanding and decision-making.
 
 ---
 
-## 📊 Project Progress
+# 📌 Project Progress
 
-### ✅ Week 1 — Business & Data Intelligence Assessment
+## ✅ Week 1 — Business & Data Intelligence Assessment
 
-Week 1 focused on understanding the business problem, datasets, analytical requirements, and dashboard planning.
+**Focus:** Understand → Explore → Define → Plan
 
-Completed:
+During Week 1, I focused on understanding the FinTrust business problem and assessing the available customer and transaction datasets before beginning detailed analysis.
 
-- Business problem understanding
-- Stakeholder identification
-- Customer and transaction data profiling
-- Data quality assessment
-- Customer–transaction relationship assessment
-- Analytical question development
-- KPI planning
-- Dashboard wireframe
-- Success criteria
-- Assumptions, risks, and dependencies
-- Week 2–4 project planning
+### What I worked on
 
-[View Week 1 Project](./Week-1-Business-Data-Assessment/)
+- Defined the business questions that management should answer
+- Identified stakeholders and decisions supported by the analysis
+- Profiled the customer and transaction datasets
+- Reviewed records, columns, field types, and data structures
+- Checked missing values and duplicate records
+- Assessed the relationship between customer and transaction data
+- Identified initial data quality issues and limitations
+- Developed analytical questions
+- Defined key performance indicators (KPIs)
+- Designed a dashboard wireframe
+- Planned the activities for Weeks 2–4
 
----
+### Key Dataset Profile
 
-### ✅ Week 2 — Data Preparation & Exploratory Analysis
+- **1,500 customers**
+- **12,000 transactions**
+- Customer–Transaction relationship established through `Customer_ID`
+- Transaction data reviewed for missing values, duplicates, and data quality issues
 
-Week 2 focused on analysing and preparing the FinTrust customer and transaction data.
+### Week 1 Outcome
 
-Completed:
+Week 1 established the business and data foundation required to move into detailed analysis in Week 2.
 
-- Data quality and cleaning assessment
-- SQL business analysis
-- Customer behaviour analysis
-- Transaction activity and value analysis
-- Transaction type analysis
-- Transaction channel analysis
-- Transaction status analysis
-- Customer segment analysis
-- Risk-review pattern analysis
-- Python exploratory data analysis
-- Data visualizations
-- Power BI management dashboard
-- Business findings and insights
-
-[View Week 2 Project](./Week-2-Analyse-and-Prepare/)
+📂 **[View Week 1 Project](./FinTrust-Digital-Bank/Week-1-Business-Data-Assessment/)**
 
 ---
 
-### ⏳ Week 3 — Dashboard Development & Deeper Analysis
+# 📊 Week 2 — Data Preparation & Exploratory Analysis
 
-Upcoming work will focus on:
+**Focus:** Analyse → Visualize → Interpret → Generate Insights
 
-- Further dashboard development
-- Deeper analysis
-- Finding validation
-- Dashboard refinement
-- Additional business insights
+In Week 2, I moved from understanding and planning the data into practical analysis of the FinTrust customer and transaction datasets.
+
+### 🔹 Excel — Data Preparation & Quality Assessment
+
+I used Excel to assess the quality and readiness of the datasets.
+
+Activities included:
+
+- Checking missing values
+- Checking duplicate records
+- Reviewing data types
+- Identifying inconsistent or unusual values
+- Reviewing potential outliers
+- Assessing the customer–transaction relationship
+- Identifying issues that could affect analysis
+
+### 🔹 SQL — Business Analysis
+
+I used SQL to answer **8 business-driven analytical questions** covering:
+
+- Customer behaviour
+- Transaction activity
+- Transaction value
+- Transaction types
+- Transaction channels
+- Transaction status
+- Customer segments
+- Risk-review patterns
+
+The analysis used SQL techniques such as aggregation, grouping, filtering, calculations, and joins to transform transaction data into meaningful business information.
+
+### 🔹 Python — Exploratory Data Analysis
+
+I used **Python, Pandas, NumPy, Matplotlib, and Seaborn** to explore patterns within the customer and transaction data.
+
+The analysis covered:
+
+- Customer segments
+- Transaction types
+- Transaction amounts
+- Transaction channels
+- Transaction status
+- International transactions
+- Customer behaviour
+- Risk-review patterns
+
+I also created visualizations to communicate important patterns and relationships in the data.
+
+### 🔹 Power BI — Management Dashboard
+
+I developed an interactive Power BI dashboard containing key performance indicators including:
+
+- Total Customers
+- Total Transactions
+- Total Transaction Value
+- Average Transaction Value
+- Transaction Success Rate
+- Risk Review Rate
+
+The dashboard also included visualizations covering:
+
+- Customer segments
+- Transaction types
+- Transaction channels
+- Transaction trends
+- Transaction status
+- Risk-review patterns
+
+Interactive filters were included to allow the data to be explored from different perspectives.
+
+### 🔹 Business Findings
+
+I translated the analytical results into business findings using:
+
+**Finding → Evidence → Business Meaning**
+
+This helped connect the analysis and visualizations to practical business interpretation rather than simply describing what the charts displayed.
+
+### Key Week 2 Results
+
+The dashboard analysis showed:
+
+- **1,500** total customers
+- **12,000** total transactions
+- Approximately **NGN 560.48M** in total transaction value
+- Approximately **NGN 46.71K** average transaction value
+- **90.47%** transaction success rate
+- **19.60%** risk-review rate
+
+### Week 2 Outcome
+
+Week 2 strengthened my ability to move from:
+
+**Raw Data → Data Preparation → SQL Analysis → Python EDA → Power BI → Business Insights**
+
+📂 **[View Week 2 Project](./FinTrust-Digital-Bank/Week-2-Data-Preparation-Analysis/)**
 
 ---
 
-### ⏳ Week 4 — Validation, Insights & Finalization
+# 🛠️ Tools & Technologies
 
-Upcoming work will focus on:
+Throughout the FinTrust project, I have worked with:
 
-- Dashboard testing
-- Final refinements
-- Business recommendations
-- Final insights
-- Project documentation
-- Portfolio presentation
-
----
-
-## 🛠️ Tools & Technologies
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- SQL
-- Microsoft Power BI
-- Microsoft Excel
-- Jupyter Notebook
+- **Microsoft Excel** — Data preparation and quality assessment
+- **SQL** — Business data querying and analysis
+- **Python** — Exploratory data analysis
+- **Pandas** — Data manipulation and analysis
+- **NumPy** — Numerical analysis
+- **Matplotlib** — Data visualization
+- **Seaborn** — Statistical visualization
+- **Power BI** — Interactive dashboards and business reporting
+- **GitHub** — Project documentation and version control
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
-Fintrust-Digital-Bank/
+AnalystLab-Africa-Data-Analytics-Internship/
 │
-├── README.md
-│
-├── Week-1-Business-Data-Assessment/
-│   ├── README.md
-│   ├── FINTRUST FINANCIAL INTELLIGENCE REPORT.docx
-│   └── Evidence/
+├── FinTrust-Digital-Bank/
+│   │
+│   ├── Week-1-Business-Data-Assessment/
+│   │   ├── README.md
+│   │   ├── FINTRUST FINANCIAL INTELLIGENCE REPORT.docx
+│   │   └── Evidence/
+│   │       ├── README.md
+│   │       ├── Customer_Data_Profiling.png
+│   │       ├── Transaction_Data_Profiling.png
+│   │       ├── Data_Quality_Check.png
+│   │       ├── Dataset_Relationship.png
+│   │       └── FinTrust_Week1_Dashboard_Wireframe.png
+│   │
+│   └── Week-2-Data-Preparation-Analysis/
 │       ├── README.md
-│       ├── Customer_Data.png
-│       ├── Customer_Quality_Check.png
-│       ├── Customer_Relationship.png
-│       ├── Dashboard_Wireframes.png
-│       ├── Transaction_Data.png
-│       └── Transaction_Quality_Check.png
+│       ├── Excel/
+│       ├── SQL/
+│       ├── Python/
+│       └── PowerBI/
 │
-├── Week-2-Analyse-and-Prepare/
-│   ├── README.md
-│   ├── Excel/
-│   ├── SQL/
-│   ├── Python/
-│   ├── PowerBI/
-│   ├── Evidence/
-│   └── Data/
-│
-└── LinkedIn/
-    ├── README.md
-    ├── Week-1-LinkedIn-Post.md
-    └── Week-2-LinkedIn-Post.md
+└── README.md
