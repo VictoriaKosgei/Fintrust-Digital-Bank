@@ -2,7 +2,7 @@
 
 Welcome to my project repository for the **AnalystLab Africa Data Analytics Internship Program**.
 
-This repository documents my practical learning journey in data analytics, including data preparation, SQL analysis, exploratory data analysis, data visualization, dashboard development, business insight generation, advanced business intelligence, findings validation, and management recommendations.
+This repository documents my practical learning journey in data analytics, including data preparation, SQL analysis, exploratory data analysis, data visualization, dashboard development, and business insight generation.
 
 ---
 
@@ -10,7 +10,7 @@ This repository documents my practical learning journey in data analytics, inclu
 
 As part of the AnalystLab Africa Internship, I am working on the **FinTrust Experience Lab** under the **Data Analytics track**.
 
-The project focuses on analysing customer and transaction data to understand banking activity, identify meaningful patterns, develop key performance indicators (KPIs), build interactive dashboards, validate business findings, and generate insights that can support business understanding and decision-making.
+The project focuses on analysing customer and transaction data to understand banking activity, identify meaningful patterns, develop key performance indicators (KPIs), and generate insights that can support business understanding and decision-making.
 
 ---
 
@@ -150,200 +150,130 @@ Week 2 strengthened my ability to move from:
 
 **Raw Data → Data Preparation → SQL Analysis → Python EDA → Power BI → Business Insights**
 
-📂 [**View Week 2 Project**](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/tree/main/Week-2-Analyse-and-Prepare)
+📂 [**View Week 2 Project**](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/tree/main/Week-2-Data-Preparation-Analysis)
 
 ---
 
-# 🧠 Week 3 — Advanced Business Intelligence & Dashboard Development
+# 📈 Week 3 — Advanced Business Intelligence
 
 **Focus:** Deepen → Develop → Validate → Recommend
 
-In Week 3, I built directly on the analysis completed in Week 2 and developed the FinTrust solution into a more advanced and decision-oriented business intelligence solution.
+In Week 3, I continued working with the FinTrust customer and transaction datasets, building on the analysis completed in Week 2.
 
-The focus was not on starting a new project, but on extending the existing SQL, Python, and Power BI work with deeper analysis, validation, and management recommendations.
+The focus was on developing deeper analytical insights, improving the Power BI solution, validating important findings, and translating the results into evidence-based management recommendations.
 
-## 🔹 Part A — Review of Previous Work
+### 🔹 Part A — Review Previous Work
 
-I reviewed the Week 1 and Week 2 deliverables to identify areas requiring improvement or deeper analysis.
+I reviewed the Week 1 and Week 2 outputs to identify:
 
-The review identified the need to:
+- Completed analytical work
+- Existing strengths
+- Areas requiring deeper analysis
+- Gaps in the previous analysis
+- Opportunities for improvement
 
-- Deepen the SQL analysis
-- Extend Python analysis with comparative and segmentation analysis
-- Improve the Power BI dashboard
-- Validate important business findings
-- Develop evidence-based management recommendations
+The review established the development direction for Week 3.
 
-The Week 3 development approach followed:
+### 🔹 Part B — Advanced SQL Analysis
 
-**Week 2 Output → Improvement/Development → Validation → Improved Output**
+I developed **8 additional advanced SQL business analyses** covering:
 
----
+- Customer transaction behaviour by segment
+- Transaction value and performance by channel
+- Successful versus failed transactions
+- Risk-review patterns
+- International versus domestic activity
+- Customer-level transaction frequency
+- High-value transaction patterns
+- Transaction trends over time
 
-## 🔹 Part B — Advanced SQL Analysis
+The analysis applied advanced SQL techniques including:
 
-I expanded the Week 2 SQL analysis by completing **8 additional/deeper business analyses**.
-
-The analyses covered:
-
-1. Customer transaction behaviour by segment
-2. Transaction value and performance by channel
-3. Successful versus failed transactions
-4. Risk-review patterns
-5. International versus domestic activity
-6. Customer-level transaction frequency
-7. High-value transaction patterns
-8. Transaction trends over time
-
-The analysis applied advanced SQL techniques where appropriate, including:
-
-- `JOIN`
-- `GROUP BY`
-- `CASE`
+- JOINs
+- GROUP BY
+- CASE statements
 - Aggregate functions
 - Subqueries
 - Common Table Expressions (CTEs)
 - Window functions
 
-### Week 3 SQL Outcome
+### 🔹 Part C — Advanced Python Analysis
 
-The SQL analysis provided deeper evidence around customer behaviour, transaction performance, risk-review patterns, transaction value, customer activity, and trends over time.
+I extended the Python exploratory analysis to provide deeper business analysis through:
 
----
-
-## 🔹 Part C — Advanced Python Analysis
-
-I extended the Week 2 Python analysis with additional analytical outputs and visualizations.
-
-The Week 3 analysis included:
-
-- Customer segment comparison
-- Channel performance analysis
-- International versus domestic analysis
-- Customer activity segmentation
-- Risk-review analysis
+- Comparative analysis
+- Customer segmentation
 - Transaction trend analysis
+- International versus domestic comparisons
+- Customer activity analysis
+- Risk-review analysis
+- Additional analytical visualizations
+- Validation of important Week 2 findings
 
-The analysis used:
+Tools used included:
 
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Seaborn**
+**Python, Pandas, NumPy, Matplotlib, and Seaborn**
 
-The additional analysis provided deeper comparative, segmentation, and trend-based evidence for validating the Week 2 findings.
+### 🔹 Part D — Advanced Power BI Dashboard
 
----
+I enhanced the Power BI solution beyond the Week 2 dashboard by developing deeper business intelligence analysis.
 
-## 🔹 Part D — Power BI Advanced Business Insights
+The improved dashboard included:
 
-I developed the existing Week 2 Power BI dashboard rather than replacing it with a new project.
+- Advanced KPI analysis
+- Transaction performance by channel
+- Customer activity analysis
+- International versus domestic analysis
+- Risk-review analysis
+- Monthly transaction performance
+- Success-rate analysis
+- Interactive filters
+- Deeper analytical views and comparisons
 
-The Week 3 dashboard introduced an **Advanced Business Insights** page with deeper analysis covering:
+DAX measures and calculated columns were also used to support the analysis and improve dashboard functionality.
 
-- Average transactions per customer by segment
-- Transaction success rate by channel
-- International versus domestic transaction analysis
-- Risk-review analysis by transaction type
-- Monthly transaction success-rate trends
-- Transaction value by channel
-- Additional KPI analysis
-- Interactive slicers
+### 🔹 Part E — Validated Business Findings
 
-The dashboard also includes interactive filtering to allow users to explore the analysis across different business dimensions.
-
-### Dashboard Development
-
-The Week 3 dashboard follows the progression:
-
-**Week 2 Overview → Advanced Analysis → Interactive Business Insights**
-
----
-
-## 🔹 Part E — Validated Business Findings
-
-I selected major findings from the Week 2 analysis and validated them using the deeper Week 3 SQL, Python, and Power BI analysis.
-
-The validation framework used was:
+Important Week 3 findings were validated using:
 
 **Finding → Evidence → Validation → Business Meaning**
 
-The major areas validated included:
+The validation process was used to determine whether the major findings identified from the earlier analysis were supported by deeper analysis.
 
-- Overall transaction performance
-- Channel transaction performance
-- Domestic versus international transaction value
-- Risk-review activity
-- Risk-review patterns by transaction type
-- Transaction success trends over time
+### 🔹 Part F — Management Recommendations
 
-### Validation Outcome
-
-The Week 3 analysis supported the major findings while providing additional detail around channel performance, transaction scope, risk-review patterns, and monthly transaction performance.
-
----
-
-## 🔹 Part F — Management Recommendations
-
-Based on the validated findings, I developed evidence-based management recommendations using:
+Based on the validated findings, management recommendations were developed using:
 
 **Finding → Evidence → Business Implication → Recommended Action**
 
-The recommendations focused on:
+The recommendations focused on areas such as:
 
-1. Investigating Mobile App transaction performance
-2. Reviewing high-value risk-flagged transactions
-3. Examining Transfer and Cash Withdrawal risk-review patterns
-4. Monitoring monthly transaction success rates
-5. Using domestic and international analysis to support business planning
-6. Investigating the causes of unsuccessful transactions
+- Channel transaction performance
+- Risk-review activity
+- Transfer and cash withdrawal patterns
+- Transaction success monitoring
+- Domestic and international transaction activity
+- Unsuccessful transaction patterns
 
-The recommendations were developed from the analysis rather than unsupported assumptions.
+### Key Week 3 Insights
 
-> **Important:** The `Risk_Review_Flag` in the dataset is a synthetic educational indicator. It is used for analytical investigation and should not be interpreted as confirmed fraud.
+The advanced analysis highlighted:
 
----
+- Transaction success rates remained above **90%** across the analysed months
+- **ATM** recorded the highest transaction success rate among the analysed channels
+- **Mobile App** recorded a lower transaction success rate compared with the other channels
+- Domestic transactions generated substantially higher transaction value than international transactions
+- Risk-review transactions represented a significant share of overall transaction value
+- Transfer and Cash Withdrawal transactions showed higher risk-review proportions
+- Monthly transaction success rates showed relatively stable performance with small month-to-month changes
 
-## 🔹 Key Week 3 Business Insights
+### Week 3 Outcome
 
-The Week 3 analysis highlighted several important patterns:
+Week 3 advanced the FinTrust solution from foundational analysis into deeper business intelligence by extending SQL analysis, Python EDA, Power BI reporting, finding validation, and management recommendations.
 
-- Transaction success remained above **90%** across the analysed monthly periods.
-- Transaction success rates differed across channels.
-- **ATM** recorded the highest displayed channel success rate at **91.70%**, while **Mobile App** recorded **89.75%**.
-- Domestic transactions generated substantially more transaction value than international transactions in the analysed dataset.
-- Risk-reviewed transactions represented **19.60% of transaction count** and approximately **28.87% of transaction value**.
-- **Transfer** and **Cash Withdrawal** transactions recorded the highest displayed risk-review proportions among the transaction types analysed.
-- Monthly transaction success rates were **90.01% in January, 90.89% in February, and 90.54% in March**.
+The work now provides a stronger basis for final testing, refinement, documentation, and presentation in Week 4.
 
-These findings provide areas for further investigation and evidence-based management action.
-
----
-
-## 🔹 Week 3 Outcome
-
-Week 3 advanced the FinTrust project from foundational exploratory analysis toward a more complete business intelligence solution.
-
-The development progressed from:
-
-**Week 2 Analysis**
-
-↓
-
-**Advanced SQL & Python Analysis**
-
-↓
-
-**Enhanced Power BI Dashboard**
-
-↓
-
-**Validated Business Findings**
-
-↓
-
-**Management Recommendations**
+📂 [**View Week 3 Project**](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/tree/main/Week3-Advanced-Business-Intelligence)
 
 ---
 
@@ -352,18 +282,18 @@ The development progressed from:
 Throughout the FinTrust project, I have worked with:
 
 | **Tool / Technology** | **How I Used It** |
-| --------------------- | ---------------------------------------------------------- |
-| **Microsoft Excel**   | Data preparation and quality assessment                  |
-| **SQL / MySQL**       | Business querying, advanced analysis, and validation     |
-| **Python**            | Exploratory and advanced data analysis                   |
-| **Pandas**            | Data manipulation, grouping, and analysis                |
-| **NumPy**             | Numerical analysis                                       |
-| **Matplotlib**        | Data visualization                                       |
-| **Seaborn**           | Statistical and comparative visualization                |
-| **Power BI**          | Interactive dashboard development and business reporting |
-| **DAX**               | KPI calculations and dashboard measures                  |
-| **Jupyter Notebook**  | Python analysis, EDA, and documentation                  |
-| **GitHub**            | Project documentation and version control                |
+| --------------------- | ----------------- |
+| **Microsoft Excel** | Data preparation and quality assessment |
+| **SQL / MySQL** | Business data querying and advanced analysis |
+| **Python** | Exploratory data analysis |
+| **Pandas** | Data manipulation and analysis |
+| **NumPy** | Numerical analysis |
+| **Matplotlib** | Data visualization |
+| **Seaborn** | Statistical visualization |
+| **Power BI** | Interactive dashboard development and business reporting |
+| **DAX** | KPI calculations and Power BI analysis |
+| **Jupyter Notebook** | Python analysis, EDA, and documentation |
+| **GitHub** | Project documentation and version control |
 
 ---
 
@@ -390,28 +320,14 @@ Fintrust-Digital-Bank/
 │   ├── Python/
 │   └── PowerBI/
 │
-├── Week-3-Advanced-Business-Intelligence/
+├── Week3-Advanced-Business-Intelligence/
 │   ├── README.md
-│   │
 │   ├── Part-A-Review-Previous-Work/
-│   │   └── Week3_PartA_Review_and_Improvement.md
-│   │
 │   ├── Part-B-Advanced-SQL/
-│   │   └── FinTrust_Week3_Advanced_SQL_Analysis.sql
-│   │
 │   ├── Part-C-Advanced-Python/
-│   │   └── FinTrust_Week3_Advanced_Python_Analysis.ipynb
-│   │
 │   ├── Part-D-Power-BI-Dashboard/
-│   │   └── FinTrust_Week3_Advanced_BI_Dashboard.pbix
-│   │
 │   ├── Part-E-Validated-Findings/
-│   │   └── Week3_Validated_Business_Findings.md
-│   │
 │   ├── Part-F-Management-Recommendations/
-│   │   ├── README.md
-│   │   └── Week3_Management_Recommendations.md
-│   │
 │   └── Testing-Validation-Evidence/
 │
 └── README.md
