@@ -322,12 +322,12 @@ Fintrust-Digital-Bank/
 │
 ├── Week3-Advanced-Business-Intelligence/
 │   ├── README.md
-│   ├── Part-A-Review-Previous-Work/
-│   ├── Part-B-Advanced-SQL/
-│   ├── Part-C-Advanced-Python/
-│   ├── Part-D-Power-BI-Dashboard/
-│   ├── Part-E-Validated-Findings/
-│   ├── Part-F-Management-Recommendations/
+│   ├── Review-Previous-Work/
+│   ├── Advanced-SQL/
+│   ├── Advanced-Python/
+│   ├── Power-BI-Dashboard/
+│   ├── Validated-Findings/
+│   ├── Management-Recommendations/
 │   └── Testing-Validation-Evidence/
 │
 └── README.md
