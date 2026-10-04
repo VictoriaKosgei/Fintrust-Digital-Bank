@@ -1,140 +1,176 @@
-1. Overall Transaction Performance Remains Strong
-Finding
+# Week 3 Business Findings
+
+The following business findings were identified from the Week 3 SQL analysis and dashboard validation for the **FinTrust Digital Bank** project.
+
+---
+
+## 1. Overall Transaction Performance Remains Strong
+
+### Finding
 
 FinTrust maintains a high level of transaction success, indicating generally strong transaction processing performance.
 
-Evidence
+### Evidence
 
-The Week 2 dashboard reported an overall Transaction Success Rate of 90.47%, while the Week 3 dashboard shows approximately 11K successful transactions out of 12K total transactions.
+The Week 2 dashboard reported an overall **Transaction Success Rate of 90.47%**, while the Week 3 dashboard shows approximately **11K successful transactions out of 12K total transactions**.
 
-Validation
+The Week 3 monthly analysis confirms that the success rate remained above **90%** across all three months:
 
-The Week 3 monthly analysis confirms that the success rate remained above 90% across January, February, and March:
+| Month    | Success Rate |
+| -------- | -----------: |
+| January  |       90.01% |
+| February |       90.89% |
+| March    |       90.54% |
 
-January: 90.01%
-February: 90.89%
-March: 90.54%
+### Validation
 
-Validation result: Supported.
+**Supported.** The monthly SQL analysis confirms that transaction success remained consistently above 90%.
 
-Business Meaning
+### Business Meaning
 
 The consistently high success rate suggests that FinTrust's transaction processing is generally reliable. However, the remaining unsuccessful transactions should continue to be monitored to identify specific channels, transaction types, or periods requiring improvement.
 
-2. Transaction Performance Differs Across Channels
-Finding
+---
+
+## 2. Transaction Performance Differs Across Channels
+
+### Finding
 
 Transaction success performance varies across channels, meaning some channels process transactions more successfully than others.
 
-Evidence
+### Evidence
 
 The Week 3 channel analysis shows:
 
-ATM: 91.70%
-Web: 90.85%
-POS: 90.85%
-USSD: 90.33%
-Mobile App: 89.75%
-Validation
+| Channel    | Success Rate |
+| ---------- | -----------: |
+| ATM        |       91.70% |
+| Web        |       90.85% |
+| POS        |       90.85% |
+| USSD       |       90.33% |
+| Mobile App |       89.75% |
 
-The deeper Week 3 channel analysis confirms that channel performance is not identical. ATM has the highest success rate, while Mobile App has the lowest among the five channels.
+### Validation
 
-Validation result: Supported.
+**Supported.** The deeper Week 3 channel analysis confirms that transaction performance is not identical across channels. ATM has the highest success rate, while Mobile App has the lowest among the five channels.
 
-Business Meaning
+### Business Meaning
 
 Channel-level differences can help FinTrust identify where transaction failures are more common. The Mobile App may require further investigation into failed transactions, system reliability, or customer experience.
 
-3. Domestic Transactions Generate Much Higher Transaction Value
-Finding
+---
+
+## 3. Domestic Transactions Generate Much Higher Transaction Value
+
+### Finding
 
 Domestic transactions account for substantially more transaction value than international transactions.
 
-Evidence
+### Evidence
 
 The Week 3 dashboard shows approximately:
 
-Domestic: NGN 0.54B
-International: NGN 0.02B
-Validation
+* **Domestic: NGN 0.54B**
+* **International: NGN 0.02B**
 
-The Week 3 international-versus-domestic analysis confirms a substantial difference in transaction value between the two transaction scopes.
+### Validation
 
-Validation result: Supported.
+**Supported.** The Week 3 international-versus-domestic analysis confirms a substantial difference in transaction value between the two transaction scopes.
 
-Business Meaning
+### Business Meaning
 
 Domestic transactions represent the primary source of transaction value in the analysed dataset. International transactions form a much smaller portion of overall transaction value, suggesting that domestic banking activity is currently the dominant business activity in this dataset.
 
-4. Risk-Review Transactions Represent a Significant Share of Transaction Value
-Finding
+---
+
+## 4. Risk-Review Transactions Represent a Significant Share of Transaction Value
+
+### Finding
 
 Risk-review activity represents a meaningful portion of FinTrust's transaction activity and warrants further investigation.
 
-Evidence
+### Evidence
 
 The Week 3 dashboard shows:
 
-19.60% Risk Review Rate
-Risk-reviewed transactions account for approximately 28.87% of total transaction value
-Approximately NGN 161.78M is associated with risk-reviewed transactions.
-Validation
+* **19.60% Risk Review Rate**
+* Risk-reviewed transactions account for approximately **28.87% of total transaction value**
+* Approximately **NGN 161.78M** is associated with risk-reviewed transactions
 
-The Week 3 risk analysis confirms that risk-reviewed transactions represent a smaller share of transaction count but a larger share of transaction value.
+### Validation
 
-Validation result: Supported.
+**Supported.** The Week 3 risk analysis confirms that risk-reviewed transactions represent a smaller share of transaction count but a larger share of transaction value.
 
-Business Meaning
+### Business Meaning
 
-The higher proportion of transaction value associated with risk-review flags means FinTrust should pay particular attention to the characteristics of these transactions. This does not indicate confirmed fraud because the Risk_Review_Flag is a synthetic educational indicator, but it can be used to identify patterns requiring additional review.
+The higher proportion of transaction value associated with risk-review flags means FinTrust should pay particular attention to the characteristics of these transactions.
 
-5. Transfer and Cash Withdrawal Transactions Have Higher Risk-Review Shares
-Finding
+This does **not** indicate confirmed fraud because the `Risk_Review_Flag` is a synthetic educational indicator. Instead, it can be used to identify transaction patterns that may require additional review.
+
+---
+
+## 5. Transfer and Cash Withdrawal Transactions Have Higher Risk-Review Shares
+
+### Finding
 
 Some transaction types have a higher proportion of risk-review flags than others.
 
-Evidence
+### Evidence
 
-The Week 3 risk-review analysis shows:
+| Transaction Type | Risk-Review Share |
+| ---------------- | ----------------: |
+| Transfer         |            28.49% |
+| Cash Withdrawal  |            25.31% |
+| Deposit          |            16.19% |
+| Airtime/Data     |            15.19% |
+| Card Purchase    |            13.02% |
+| Bill Payment     |            12.81% |
 
-Transfer: 28.49%
-Cash Withdrawal: 25.31%
-Deposit: 16.19%
-Airtime/Data: 15.19%
-Bill Payment: 12.81%
-Card Purchase: 13.02%
-Validation
+### Validation
 
-The deeper Week 3 analysis confirms that Transfer and Cash Withdrawal have the highest proportions of risk-review flags among the transaction types shown.
+**Supported.** The deeper Week 3 analysis confirms that **Transfer** and **Cash Withdrawal** have the highest proportions of risk-review flags among the transaction types analysed.
 
-Validation result: Supported.
-
-Business Meaning
+### Business Meaning
 
 Transfer and cash withdrawal activity should receive closer monitoring within FinTrust's risk-review processes. Further investigation could examine whether these patterns are also associated with transaction value, channels, international activity, or transaction outcomes.
 
-6. Transaction Success Performance Changes Over Time
-Finding
+---
+
+## 6. Transaction Success Performance Changes Over Time
+
+### Finding
 
 Transaction success performance changes slightly across the months rather than remaining completely constant.
 
-Evidence
+### Evidence
 
-The Week 3 trend analysis shows:
+| Month    | Success Rate |
+| -------- | -----------: |
+| January  |       90.01% |
+| February |       90.89% |
+| March    |       90.54% |
 
-Month	Success Rate
-January	90.01%
-February	90.89%
-March	90.54%
+February recorded the highest success rate.
 
-February records the highest success rate.
+### Validation
 
-Validation
+**Supported.** The Week 3 trend analysis confirms that the success rate increased from January to February before declining slightly in March.
 
-The Week 3 trend analysis confirms that success rate increased from January to February and then declined slightly in March.
+### Business Meaning
 
-Validation result: Supported.
+The relatively small monthly changes suggest that transaction performance is generally stable. However, monitoring monthly trends can help FinTrust identify periods when transaction reliability improves or deteriorates and support timely investigation of unusual changes.
 
-Business Meaning
+---
 
-The relatively small monthly changes suggest that transaction performance is generally stable, but monitoring monthly trends can help FinTrust identify periods when transaction reliability improves or deteriorates.
+## Overall Business Takeaways
+
+The Week 3 analysis indicates that FinTrust's transaction environment is generally stable, with transaction success remaining above 90% across the analysed period. However, several areas require continued attention:
+
+* **Transaction reliability:** Maintain the high overall success rate while investigating unsuccessful transactions.
+* **Channel performance:** Monitor lower-performing channels, particularly the Mobile App.
+* **Transaction value:** Domestic transactions remain the dominant contributor to transaction value.
+* **Risk monitoring:** Risk-reviewed transactions represent a disproportionately high share of transaction value.
+* **Transaction types:** Transfers and cash withdrawals show the highest risk-review shares.
+* **Time trends:** Continue monitoring monthly transaction performance for emerging changes.
+
+These findings provide a basis for FinTrust to focus further analysis on **transaction failures, channel reliability, transaction risk patterns, and high-value activity**.
