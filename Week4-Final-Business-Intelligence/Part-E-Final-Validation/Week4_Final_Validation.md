@@ -130,12 +130,3 @@ Overall, the validation process supports the accuracy, reproducibility, and func
 
 The project demonstrates the application of SQL, Python, Excel, and Power BI in data validation, analytical reporting, dashboard development, and evidence-based business decision-making.
 
-## 👩‍💻 Author
-
-**Victoria Kosgei**
-
-**Program:** AnalystLab Africa Data Analytics Internship
-
-**Project:** FinTrust Digital Bank — Week 4 Final Analysis Validation
-
-**GitHub:** [VictoriaKosgei](https://github.com/VictoriaKosgei)
