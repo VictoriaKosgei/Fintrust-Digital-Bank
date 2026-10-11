@@ -8,7 +8,7 @@ The dashboard presents key insights into customer and transaction activity, tran
 
 ## 2. Access the Dashboard
 
-**Power BI Dashboard:** [Click here to view the interactive dashboard](PASTE_YOUR_POWER_BI_LINK_HERE)
+**Power BI Dashboard:** [Click here to view the interactive dashboard]()
 
 > Note: Access depends on the sharing permissions of the dashboard. If prompted, sign in or request access from the dashboard owner.
 
@@ -16,7 +16,7 @@ The dashboard presents key insights into customer and transaction activity, tran
 
 The screenshot below provides a preview of the final dashboard.
 
-![FinTrust Power BI Dashboard]()
+![FinTrust Power BI Dashboard](Week4-Final-Validation/DASHBOARD/Week4-Dashboard.png)
 
 *Figure 1: Final FinTrust Digital Bank Power BI dashboard.*
 
