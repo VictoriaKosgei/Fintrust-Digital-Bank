@@ -92,12 +92,3 @@ The recommendations focus on investigating unsuccessful transactions, monitoring
 
 Overall, the report demonstrates how data analytics can translate SQL queries, Python analysis, and Power BI reporting into actionable business insights and evidence-based management recommendations.
 
-## 👩‍💻 Author
-
-**Victoria Kosgei**
-
-**Program:** AnalystLab Africa Data Analytics Internship
-
-**Project:** FinTrust Digital Bank — Week 4 Final Business Insights and Management Recommendations
-
-**GitHub:** [VictoriaKosgei](https://github.com/VictoriaKosgei)
