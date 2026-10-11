@@ -2,54 +2,85 @@
 
 ## 1. Objective
 
-The purpose of this test was to verify the accuracy, functionality, clarity, and usability of the final FinTrust Power BI dashboard.
+The purpose of this testing process was to verify the accuracy, functionality, clarity, and usability of the final FinTrust Digital Bank Power BI dashboard.
+
+The testing focused on KPI calculations, transaction trends, channel performance, domestic and international transactions, risk-review analysis, slicer functionality, chart interactions, and dashboard presentation.
 
 ## 2. Testing Areas
 
 The following areas were tested:
 
-1. KPI calculations
-2. Monthly transaction trends
-3. Channel performance
-4. International and domestic transactions
-5. Risk-review analysis
-6. Slicer functionality
-7. Chart interactions
-8. Dashboard presentation and formatting
+1. KPI calculations and accuracy.
+2. Monthly transaction trends.
+3. Channel performance.
+4. Domestic and international transactions.
+5. Risk-review analysis.
+6. Slicer and filter functionality.
+7. Chart interactions.
+8. Dashboard presentation and formatting.
 
 ## 3. Testing Results
 
-| Test                   | Expected Result                                         | Actual Result  | Status  |
-| ---------------------- | ------------------------------------------------------- | -------------- | ------- |
-| KPI accuracy           | Values match validated calculations                     | To be recorded | Pending |
-| Transaction trends     | Monthly values are accurate and chronologically ordered | To be recorded | Pending |
-| Channel performance    | Channel metrics match validated values                  | To be recorded | Pending |
-| Transaction scope      | Domestic and international results are accurate         | To be recorded | Pending |
-| Risk-review analysis   | Risk-related calculations are accurate                  | To be recorded | Pending |
-| Slicers                | Relevant visuals respond as intended                    | To be recorded | Pending |
-| Chart interactions     | Visual interactions work as intended                    | To be recorded | Pending |
-| Dashboard presentation | Titles, labels, formatting, and layout are clear        | To be recorded | Pending |
+| Test                   | Expected Result                                          | Actual Result                                                                       | Status |
+| ---------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------ |
+| KPI accuracy           | Values match validated calculations.                     | KPI values were checked and confirmed to be working as expected.                    | PASS   |
+| Transaction trends     | Monthly values are accurate and chronologically ordered. | Monthly transaction trends were checked and worked as intended.                     | PASS   |
+| Channel performance    | Channel metrics match validated values.                  | Channel performance visuals were checked and worked as expected.                    | PASS   |
+| Transaction scope      | Domestic and international results are accurate.         | Domestic and international transaction visuals were checked and worked as intended. | PASS   |
+| Risk-review analysis   | Risk-related calculations are accurate.                  | Risk-review calculations and visuals were checked and worked as expected.           | PASS   |
+| Slicers                | Relevant visuals respond as intended.                    | Slicers and filters were tested and responded as expected.                          | PASS   |
+| Chart interactions     | Visual interactions work as intended.                    | Chart selections and interactions were tested and worked as expected.               | PASS   |
+| Dashboard presentation | Titles, labels, formatting, and layout are clear.        | Dashboard presentation and formatting were reviewed and found satisfactory.         | PASS   |
 
 ## 4. Issues Identified
 
-Document any incorrect calculations, non-functioning interactions, unclear labels, or other issues identified during testing.
+No issues were identified during the completed Power BI dashboard testing checks.
 
-If no issues are found, state that no issues were identified during the completed checks.
+The dashboard KPIs, transaction trend visuals, channel performance, transaction scope analysis, risk-review visuals, slicers, and chart interactions worked as expected during testing.
 
 ## 5. Corrections and Retesting
 
-Document each correction made and the result of the subsequent test. If no corrections were necessary, state that explicitly.
+No additional corrections were required during the final Power BI testing process.
+
+The dashboard was reviewed after testing to confirm that the displayed information and interactive features worked as intended.
 
 ## 6. Evidence
 
-Save the relevant screenshots in:
+The following evidence files are recommended for the Week 4 testing documentation. Include each file only after saving it.
+
+**Evidence folder:**
 
 `Supporting-Evidence/Testing-Evidence/`
 
-The evidence should include KPI checks, trend and channel checks, slicer tests, interaction tests, and a final dashboard screenshot, as applicable.
+| Evidence File                          | Purpose                                                          |
+| -------------------------------------- | ---------------------------------------------------------------- |
+| `PowerBI_Final_Dashboard.png`          | Shows the complete dashboard in its default, unfiltered state.   |
+| `PowerBI_KPI_Validation.png`           | Supports the review of dashboard KPI values.                     |
+| `PowerBI_Trend_and_Channel_Checks.png` | Shows monthly transaction trends and channel performance.        |
+| `PowerBI_Slicer_Test.png`              | Demonstrates slicer and filter functionality.                    |
+| `PowerBI_Interaction_Test.png`         | Demonstrates chart interaction behavior.                         |
+| `PowerBI_Final_Testing.mp4`            | Records the dashboard testing process, if a recording was saved. |
+
+These files provide supporting evidence of the testing process and final dashboard state.
 
 ## 7. Conclusion
 
-Complete this section after all tests have been performed. Summarize the checks completed, the issues corrected, and whether the dashboard is ready for final integration.
+The final FinTrust Digital Bank Power BI dashboard successfully passed the completed testing checks.
 
-**Final status:** To be determined after testing.
+The validation covered KPI accuracy, monthly transaction trends, channel performance, domestic and international transaction analysis, risk-review visuals, slicer functionality, chart interactions, and dashboard presentation.
+
+No issues were identified during the completed checks, and no additional corrections were required during final testing.
+
+The dashboard is ready for integration into the final FinTrust Digital Bank project deliverables.
+
+**Final Status: PASS**
+
+## 👩‍💻 Author
+
+**Victoria Kosgei**
+
+**Program:** AnalystLab Africa Data Analytics Internship
+
+**Project:** FinTrust Digital Bank — Week 4 Final Power BI Testing
+
+**GitHub:** [VictoriaKosgei](https://github.com/VictoriaKosgei)
