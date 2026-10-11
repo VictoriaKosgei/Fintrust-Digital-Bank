@@ -75,12 +75,3 @@ The dashboard is ready for integration into the final FinTrust Digital Bank proj
 
 **Final Status: PASS**
 
-## 👩‍💻 Author
-
-**Victoria Kosgei**
-
-**Program:** AnalystLab Africa Data Analytics Internship
-
-**Project:** FinTrust Digital Bank — Week 4 Final Power BI Testing
-
-**GitHub:** [VictoriaKosgei](https://github.com/VictoriaKosgei)
