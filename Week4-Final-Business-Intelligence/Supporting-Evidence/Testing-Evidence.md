@@ -4,7 +4,7 @@
 
 The Python notebook was tested by restarting the kernel and running the notebook cells from the beginning.
 
-* **Recording:** [Insert Python recording link]
+* **Recording:** []
 * **Testing report:** `../Part-A-Final-Data-and-Analysis-Review/A4-Python-Reproducibility-Testing.md`
 
 ## Power BI Dashboard Testing
