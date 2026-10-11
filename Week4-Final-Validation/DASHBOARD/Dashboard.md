@@ -8,7 +8,7 @@ The dashboard presents key insights into customer and transaction activity, tran
 
 ## 2. Access the Dashboard
 
-**Power BI Dashboard:** [Click here to view the interactive dashboard](PASTE_YOUR_POWER_BI_LINK_HERE)
+**Power BI Dashboard:** [Click here to view the interactive dashboard](Week4-Final-Validation/DASHBOARD/Fintrust_Week2_Analytics_Dashboard.pbix)
 
 > Note: Access depends on the sharing permissions of the dashboard. If prompted, sign in or request access from the dashboard owner.
 
