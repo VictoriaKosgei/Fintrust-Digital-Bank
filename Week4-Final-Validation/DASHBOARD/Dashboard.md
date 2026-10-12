@@ -8,7 +8,11 @@ The dashboard presents key insights into customer and transaction activity, tran
 
 ## 2. Access the Dashboard
 
-**Power BI Dashboard:** [Click here to view the interactive dashboard](Week4-Final-Validation/DASHBOARD/Week4-Dashboard.png)
+![Fintrust Dashboard](Week4-Final-Validation/DASHBOARD/Week4-Dashboard.png)
+
+
+### Executive Dashboard
+![Executive Dashboard](Screenshots/Executive-Dashboard.png)
 
 > Note: Access depends on the sharing permissions of the dashboard. If prompted, sign in or request access from the dashboard owner.
 
