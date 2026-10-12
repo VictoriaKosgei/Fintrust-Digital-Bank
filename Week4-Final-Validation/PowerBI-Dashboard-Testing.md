@@ -78,7 +78,7 @@ Any discrepancies or issues identified during testing should be documented along
 
 ## 6. Dashboard Evidence
 
-The final dashboard screenshot and access link are provided in ![Dashboard.md](Week4-Final-Validation/DASHBOARD/Dashboard.md).
+The final dashboard screenshot and access link are provided in ![Dashboard.md](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/blob/main/Week4-Final-Validation/DASHBOARD/Dashboard.md).
 
 The dashboard evidence supports the documentation of the final Power BI presentation and provides a reference for the visuals reviewed during testing.
 
