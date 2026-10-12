@@ -40,7 +40,7 @@ The dashboard covers the following areas:
 
 The final dashboard was tested as part of Week 4. Testing covered KPI calculations, monthly transaction trends, channel performance, domestic and international transactions, risk-review analysis, slicers, chart interactions, and visual clarity.
 
-See [Power BI Testing](Power_BI_Testing.md) for the detailed test record.
+See [Power BI Testing](https://drive.google.com/open?id=1d-9xqxgU5SXBgP1DckzzagUZ2AmkpOlL&usp=drive_copy) for the detailed test record.
 
 ## 7. Project Context
 
