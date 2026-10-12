@@ -44,7 +44,7 @@ See [Power BI Testing](https://drive.google.com/open?id=1d-9xqxgU5SXBgP1DckzzagU
 
 ## 7. Project Context
 
-This dashboard is part of the broader FinTrust Digital Bank analytics project. For the overall project, validation activities, business findings and recommendations, see the [Week 4 README](README.md).
+This dashboard is part of the broader FinTrust Digital Bank analytics project. For the overall project, validation activities, business findings and recommendations, see the [Week 4 README](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/blob/main/Week4-Final-Validation/README.md).
 
 ## 8. Disclaimer
 
