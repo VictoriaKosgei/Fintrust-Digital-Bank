@@ -1,163 +1,179 @@
-# Week 4 — Final Validation and Project Documentation
-
-## FinTrust Financial Intelligence & Digital Banking Support Solution
-
-**Programme:** AnalystLab Africa Data Analytics Internship
-**Project:** FinTrust Digital Bank
-**Phase:** Week 4 — Final Validation, Testing and Documentation
-**Tools:** Excel, SQL, Python, Pandas, NumPy, Matplotlib, Seaborn and Power BI
+# Week 4 — Final Validation and Project Completion
 
 ## 1. Project Overview
 
-The FinTrust Digital Bank project focuses on analysing customer and transaction data to understand transaction performance, customer activity, transaction channels, transaction outcomes and risk-review patterns.
+This project represents the **final stage of the FinTrust Financial Intelligence & Digital Banking Support Solution**, completed as part of the **AnalystLab Africa Data Analytics Internship**.
 
-The project follows a business-focused analytics workflow, beginning with business understanding and data assessment, followed by data analysis, SQL querying, dashboard development, validation and final documentation.
+The project focuses on analysing customer and transaction data to evaluate transaction performance, identify business patterns, assess risk-review activity, and develop data-driven recommendations.
 
-The Week 4 objective is to review the completed work, verify the reliability of the analysis, test the final Power BI dashboard, validate key business findings and prepare the final project deliverables.
+Week 4 brings together the work completed during the previous three weeks through final data-quality reviews, SQL and Python validation, Power BI dashboard testing, business findings validation, documentation, and presentation preparation.
+
+**This is the final FinTrust project deliverable for the four-week analytics project.**
 
 ## 2. Project Objectives
 
-* Assess the quality and suitability of the customer and transaction datasets.
-* Analyse transaction volumes, values, outcomes and trends.
-* Evaluate customer activity and transaction channels.
-* Compare domestic and international transaction patterns.
-* Examine transactions flagged for risk review.
-* Develop and validate business insights and recommendations.
-* Present the findings through a Power BI dashboard and supporting documentation.
+The overall project aimed to:
 
-## 3. Work Completed Across the Project
+* Examine customer and transaction data for quality and consistency.
+* Analyse transaction performance and identify meaningful business patterns.
+* Evaluate transaction outcomes across channels and reporting periods.
+* Investigate domestic and international transaction activity.
+* Examine transactions flagged for further risk review.
+* Develop an interactive Power BI dashboard.
+* Validate important business findings against the available analytical outputs.
+* Provide evidence-based recommendations to support business decision-making.
+* Document assumptions, limitations, validation procedures, and final results.
+
+## 3. Project Journey: Weeks 1–4
 
 ### Week 1 — Business Understanding and Data Assessment
 
-* Reviewed the customer and transaction datasets.
-* Identified the relationship between customer records and transaction records using `Customer_ID`.
-* Conducted initial data quality checks.
-* Identified missing values in selected fields, including `Device_Type` and `Location`.
-* Defined business questions, proposed KPIs and planned the dashboard layout.
-* Documented initial assumptions, risks and limitations.
+The first week established the business context, reviewed the customer and transaction datasets, identified initial data-quality concerns, defined business questions, and planned the dashboard.
 
-### Weeks 2–3 — Analysis, SQL and Dashboard Development
+Key activities included:
 
-* Continued data review and exploratory analysis.
-* Used SQL to answer business questions involving transaction performance, monthly trends, channels, transaction types and risk-review patterns.
-* Used Python for data analysis and visual exploration.
-* Developed Power BI visuals and KPI cards to communicate the analysis.
-* Prepared business findings and management recommendations based on the earlier analysis.
+* Reviewing the customer and transaction datasets.
+* Examining data structure, completeness, and relationships.
+* Identifying initial data-quality issues.
+* Defining business questions and analytical objectives.
+* Establishing the customer–transaction relationship.
+* Preparing initial dashboard wireframes and project documentation.
 
-### Week 4 — Final Validation and Testing
+### Week 2 — Data Preparation and Exploratory Analysis
 
-* Reviewed the work completed in Weeks 1–3.
-* Completed the final data quality checks.
-* Completed SQL and Python validation.
-* Completed testing of the final Power BI dashboard.
-* Prepared final validation evidence and project documentation.
+The second week focused on data-quality checks, preparation, exploratory analysis, and initial transaction performance reporting.
 
-The final business findings validation register should record the actual result and conclusion for each finding, including any corrections and re-testing performed.
+Key activities included:
 
-## 4. Data Overview
+* Reviewing missing values and data consistency.
+* Preparing data for analysis.
+* Analysing transaction activity, value, outcomes, and channels.
+* Examining customer and transaction patterns.
+* Developing initial visualisations and Power BI reporting.
+* Identifying preliminary business insights.
 
-The project initially covered:
+### Week 3 — SQL Analysis and Business Insights
 
-| Dataset          | Previously documented size | Purpose                                                                   |
-| ---------------- | -------------------------: | ------------------------------------------------------------------------- |
-| Customer data    |              1,500 records | Customer attributes and segmentation                                      |
-| Transaction data |             12,000 records | Transaction activity, values, channels, outcomes and risk-review analysis |
+The third week focused on structured querying, deeper analysis, and the development of business findings and recommendations.
 
-The datasets are related through `Customer_ID`, with one customer potentially associated with multiple transactions.
+Key activities included:
 
-## 5. Key Metrics and Previously Reported Results
+* Writing SQL queries to answer business questions.
+* Applying aggregation, filtering, grouping, and analytical techniques.
+* Examining transaction trends and high-value transaction patterns.
+* Analysing transaction performance and risk-review indicators.
+* Comparing analytical results and documenting business findings.
+* Developing recommendations supported by the analysis.
 
-The following figures were reported during the earlier analysis. They should be read alongside the final validation evidence.
+### Week 4 — Final Validation and Project Completion
 
-| Metric                              |       Previously reported result |
-| ----------------------------------- | -------------------------------: |
-| Total transactions                  |                           12,000 |
-| Overall transaction success rate    |                           90.47% |
-| Total transaction value             | Approximately NGN 560.48 million |
-| Risk-review transaction rate        |                           19.60% |
-| January transaction success rate    |                           90.01% |
-| February transaction success rate   |                           90.89% |
-| March transaction success rate      |                           90.54% |
-| ATM transaction success rate        |                           91.70% |
-| Mobile App transaction success rate |                           89.75% |
+The fourth week focused on reviewing and validating the complete project before final submission.
 
-These figures are historical analysis results, not a claim that every figure has independently passed final validation. Refer to the supporting validation documentation for the recorded outcomes.
+Key activities included:
 
-## 6. Final Validation Activities
+* Reviewing final data quality and analytical assumptions.
+* Checking SQL and Python outputs for consistency.
+* Testing Power BI KPI calculations and visualisations.
+* Testing slicers and chart interactions.
+* Reviewing transaction trends, channel performance, domestic and international activity, and risk-review analysis.
+* Validating key business findings against the available evidence.
+* Finalising recommendations and project documentation.
+* Preparing the final dashboard evidence and presentation materials.
 
-### Data Quality Review
+## 4. Tools and Technologies
 
-The final review covered missing values, duplicates, data types, transaction dates, customer identifiers, dataset relationships and readiness for KPI calculations.
+The project used the following tools:
 
-Earlier checks identified 96 missing values in `Device_Type` and 96 in `Location`. Their treatment should be documented in the final data quality review.
+* **Microsoft Excel:** Initial data inspection and quality checks.
+* **Python:** Data preparation, exploratory data analysis, calculations, and visualisation.
+* **Pandas and NumPy:** Data manipulation and numerical analysis.
+* **Matplotlib and Seaborn:** Exploratory visualisation.
+* **SQL:** Business queries, aggregations, and transaction analysis.
+* **Microsoft Power BI:** Interactive dashboard development and testing.
+* **GitHub:** Project documentation, version control, and evidence organisation.
 
-### SQL and Python Validation
+## 5. Key Business Analysis Areas
 
-The final SQL queries and Python analysis were reviewed and validated. The supporting documentation should identify the important calculations checked, the outputs obtained and any discrepancies or corrections.
+The FinTrust project examined the following areas:
 
-### Power BI Dashboard Testing
+* Overall transaction performance and success rates.
+* Transaction value and activity over time.
+* Monthly transaction success rates.
+* Performance across transaction channels.
+* Domestic and international transaction activity and value.
+* Transactions flagged for further risk review.
+* High-value transaction patterns.
+* Business recommendations based on the analytical findings.
 
-The final dashboard testing covered:
+The final report should use the validated outputs from the project when presenting specific metrics and conclusions.
 
-* KPI calculations
-* Monthly transaction trends
-* Channel performance
-* Domestic and international transactions
-* Risk-review analysis
-* Slicer functionality
-* Chart interactions
-* Labels, formatting, clarity and usability
+## 6. Final Deliverables
 
-The detailed testing document should retain the actual pass/fail outcomes and evidence.
+The completed project documentation and evidence are organised within the FinTrust repository.
 
-## 7. Business Insights and Recommendations
+Week 4 final deliverables include:
 
-The earlier analysis highlighted several areas for management attention:
+* Final project README.
+* Final project report.
+* Data-quality review.
+* SQL and Python validation documentation.
+* KPI definitions.
+* Power BI dashboard access link and screenshot.
+* Power BI dashboard testing report.
+* Business findings validation.
+* Assumptions and limitations.
+* Supporting SQL scripts, notebooks, and evidence where applicable.
+* Final presentation materials.
 
-1. Overall transaction success and failure patterns.
-2. Differences in monthly transaction success rates.
-3. Differences in performance across transaction channels.
-4. The share of transaction value associated with risk-review flags.
-5. Differences in risk-review patterns across transaction types.
-6. Differences between domestic and international transaction activity.
+Refer to the relevant files and folders in this directory for the detailed analysis, validation results, and supporting evidence.
 
-Final recommendations should be tied to the validated evidence. Suggested actions may include monitoring channel performance, investigating failed transactions, reviewing high-value flagged activity and tracking monthly operational indicators.
+## 7. Final Validation
 
-## 8. Tools and Technologies
+The final validation stage brought together the data-quality review, analytical outputs, and Power BI dashboard testing.
 
-* **Excel:** Initial data inspection and quality checks.
-* **SQL:** Business queries, aggregations, joins and transaction analysis.
-* **Python:** Data processing, analysis and visual exploration.
-* **Power BI:** KPI reporting, dashboard visuals and interactive analysis.
-* **GitHub:** Versioned project files, documentation and validation evidence.
+The purpose was to improve consistency across the analysis tools, verify important calculations, review interactive dashboard behaviour, and ensure that the final business findings were supported by the available evidence.
 
-## 9. Assumptions and Limitations
+The final validation documentation records the checks performed, the results observed, and any limitations that affect interpretation.
 
-* The datasets represent the scope of the supplied project data and may not represent real-world banking activity.
-* Risk-review flags are educational indicators for analysis, not proof of fraud or criminal activity.
-* A flagged transaction should not automatically be treated as fraudulent.
-* Observed differences between channels or transaction types do not, by themselves, establish the cause of those differences.
-* Findings and recommendations are limited to the available fields, records and analysis period.
-* Previously reported metrics must be interpreted alongside the final validation results.
+## 8. Assumptions and Limitations
 
-## 10. Deliverables
+The analysis is based on the supplied project dataset and the documented KPI definitions.
 
-* Final project report
-* Data quality review
-* SQL scripts
-* Python notebook
-* Final Power BI dashboard
-* KPI definitions and calculation notes
-* Business findings and recommendations
-* SQL/Python validation documentation
-* Power BI testing documentation
-* Business findings validation register
-* Screenshots and other validation evidence
-* Final project presentation
+Important considerations include:
 
-## 11. Conclusion
+* Missing or incomplete data may affect some analyses.
+* Transaction status and risk-review fields must be interpreted according to their definitions.
+* The high-value transaction threshold is specific to this project.
+* Risk-review flags do not prove that a transaction is fraudulent.
+* Findings describe patterns in the available data and do not necessarily establish causation.
+* Results from this educational project should not automatically be generalised to a live banking environment.
 
-The FinTrust project brings together data quality assessment, SQL analysis, Python-based exploration, business intelligence reporting and final validation. The Week 4 objective is to ensure that the final outputs are consistent, clearly documented, supported by evidence and suitable for communicating data-driven recommendations.
+See [Assumptions and Limitations](Assumptions_and_Limitations.md) for the full documentation.
 
-This project demonstrates an end-to-end analytics workflow, from understanding a business problem to analysing data, communicating findings and checking the reliability of the final outputs.
+## 9. Dashboard Access and Evidence
 
+The final Power BI dashboard link and screenshot are documented in [Dashboard.md](Dashboard.md).
+
+The dashboard provides a visual summary of the transaction analysis and supports exploration of the business metrics examined throughout the project.
+
+See [Power BI Testing](Power_BI_Testing.md) for the final dashboard testing documentation.
+
+## 10. Final Project Status
+
+**Project:** FinTrust Financial Intelligence & Digital Banking Support Solution
+
+**Programme:** AnalystLab Africa Data Analytics Internship
+
+**Project Stage:** Week 4 — Final Validation and Project Completion
+
+**Status:** Final project documentation and validation stage
+
+Week 4 concludes the four-week FinTrust analytics project by consolidating the work completed across business understanding, data preparation, exploratory analysis, SQL querying, business insights, dashboard development, and final validation.
+
+The project demonstrates the application of data analytics tools and techniques to a banking-related business scenario, with an emphasis on data quality, analytical consistency, evidence-based recommendations, and transparent reporting.
+
+---
+
+**FinTrust Financial Intelligence & Digital Banking Support Solution — Final Project, Week 4.**
+
+Completed as part of the **AnalystLab Africa Data Analytics Internship**.
