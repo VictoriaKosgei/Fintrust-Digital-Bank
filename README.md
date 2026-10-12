@@ -335,7 +335,7 @@ The final documentation brings together the project report, KPI definitions, dat
 
 Week 4 consolidates the four-week project into a documented final deliverable, linking data preparation, analysis, dashboard development, validation, and business recommendations.
 
-📂 [**View Week 4 — Final Validation and Project Completion**](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/tree/main/Week-4-Final-Validation)
+📂 [**View Week 4 — Final Validation and Project Completion**](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/tree/main/Week4-Final-Validation)
 
 ---
 
