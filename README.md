@@ -410,9 +410,6 @@ Fintrust-Digital-Bank/
 │   └── evidence/
 │
 └── README.md
-```
-
-*Note: The structure above is a guide. Keep the folder and file names consistent with the actual files in your repository, and update any paths if your folders use different names.*
 
 ---
 
