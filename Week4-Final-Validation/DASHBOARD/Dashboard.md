@@ -8,7 +8,7 @@ The dashboard presents key insights into customer and transaction activity, tran
 
 ## 2. Access the Dashboard
 
-![Fintrust Dashboard](Week4-Final-Validation/DASHBOARD/Week4-Dashboard.png)
+![Download Dashboard](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/blob/main/Week4-Final-Validation/DASHBOARD/Fintrust_Week2_Analytics_Dashboard.pbix)
 
 ## 3. Dashboard Screenshot
 
