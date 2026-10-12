@@ -10,17 +10,11 @@ The dashboard presents key insights into customer and transaction activity, tran
 
 ![Fintrust Dashboard](Week4-Final-Validation/DASHBOARD/Week4-Dashboard.png)
 
-
-### Executive Dashboard
-![Executive Dashboard](Screenshots/Executive-Dashboard.png)
-
-> Note: Access depends on the sharing permissions of the dashboard. If prompted, sign in or request access from the dashboard owner.
-
 ## 3. Dashboard Screenshot
 
 The screenshot below provides a preview of the final dashboard.
 
-![FinTrust Power BI Dashboard](screenshots/FinTrust_Dashboard.png)
+![FinTrust Power BI Dashboard](Week4-Final-Validation/DASHBOARD/Week4-Dashboard.png)
 
 *Figure 1: Final FinTrust Digital Bank Power BI dashboard.*
 
