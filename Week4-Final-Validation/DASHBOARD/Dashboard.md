@@ -14,7 +14,7 @@ The dashboard presents key insights into customer and transaction activity, tran
 
 The screenshot below provides a preview of the final dashboard.
 
-![FinTrust Power BI Dashboard](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/blob/main/Week4-Final-Validation/DASHBOARD/Week4-Dashboard.png)
+![FinTrust Power BI Dashboard](https://github.com/VictoriaKosgei/Fintrust-Digital-Bank/blob/main/Week4-Final-Validation/DASHBOARD/Week4-Fintrust-Dashboard.png)
 
 *Figure 1: Final FinTrust Digital Bank Power BI dashboard.*
 
